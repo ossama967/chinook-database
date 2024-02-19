@@ -1,0 +1,121 @@
+                                                                                  json_agg                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ [{"track_id":422,"name":"I Want It All","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":241684,"bytes":7876564,"unit_price":0.99},          +
+  {"track_id":424,"name":"Innuendo","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":387761,"bytes":12664591,"unit_price":0.99},              +
+  {"track_id":426,"name":"Breakthru","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":249234,"bytes":8150479,"unit_price":0.99},              +
+  {"track_id":428,"name":"Headlong","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":273057,"bytes":8921404,"unit_price":0.99},               +
+  {"track_id":429,"name":"The Miracle","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":294974,"bytes":9671923,"unit_price":0.99},            +
+  {"track_id":430,"name":"I'm Going Slightly Mad","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":248032,"bytes":8192339,"unit_price":0.99}, +
+  {"track_id":431,"name":"The Invisible Man","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":238994,"bytes":7920353,"unit_price":0.99},      +
+  {"track_id":434,"name":"The Show Must Go On","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":263784,"bytes":8526760,"unit_price":0.99},    +
+  {"track_id":435,"name":"One Vision","album_id":36,"media_type_id":1,"genre_id":1,"composer":"Queen","milliseconds":242599,"bytes":7936928,"unit_price":0.99}]
+(1 row)
+
+                               List of databases
+   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
+-----------+--------+----------+-------------+-------------+-------------------
+ chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+ template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+(4 rows)
+
+                               List of databases
+   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
+-----------+--------+----------+-------------+-------------+-------------------
+ chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+ template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+(4 rows)
+
+            List of relations
+ Schema |      Name      | Type  | Owner  
+--------+----------------+-------+--------
+ public | album          | table | gitpod
+ public | artist         | table | gitpod
+ public | customer       | table | gitpod
+ public | employee       | table | gitpod
+ public | genre          | table | gitpod
+ public | invoice        | table | gitpod
+ public | invoice_line   | table | gitpod
+ public | media_type     | table | gitpod
+ public | playlist       | table | gitpod
+ public | playlist_track | table | gitpod
+ public | track          | table | gitpod
+(11 rows)
+
+                       List of databases
+ Name | Owner | Encoding | Collate | Ctype | Access privileges 
+------+-------+----------+---------+-------+-------------------
+(0 rows)
+
+            List of relations
+ Schema |      Name      | Type  | Owner  
+--------+----------------+-------+--------
+ public | album          | table | gitpod
+ public | artist         | table | gitpod
+ public | customer       | table | gitpod
+ public | employee       | table | gitpod
+ public | genre          | table | gitpod
+ public | invoice        | table | gitpod
+ public | invoice_line   | table | gitpod
+ public | media_type     | table | gitpod
+ public | playlist       | table | gitpod
+ public | playlist_track | table | gitpod
+ public | track          | table | gitpod
+(11 rows)
+
+            List of relations
+ Schema |      Name      | Type  | Owner  
+--------+----------------+-------+--------
+ public | album          | table | gitpod
+ public | artist         | table | gitpod
+ public | customer       | table | gitpod
+ public | employee       | table | gitpod
+ public | genre          | table | gitpod
+ public | invoice        | table | gitpod
+ public | invoice_line   | table | gitpod
+ public | media_type     | table | gitpod
+ public | playlist       | table | gitpod
+ public | playlist_track | table | gitpod
+ public | track          | table | gitpod
+(11 rows)
+
+                               List of databases
+   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
+-----------+--------+----------+-------------+-------------+-------------------
+ chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+ template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+(4 rows)
+
+                               List of databases
+   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
+-----------+--------+----------+-------------+-------------+-------------------
+ chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+ template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+(4 rows)
+
+                               List of databases
+   Name    | Owner  | Encoding |   Collate   |    Ctype    | Access privileges 
+-----------+--------+----------+-------------+-------------+-------------------
+ chinook   | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ postgres  | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | 
+ template0 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+ template1 | gitpod | UTF8     | en_US.UTF-8 | en_US.UTF-8 | =c/gitpod        +
+           |        |          |             |             | gitpod=CTc/gitpod
+(4 rows)
+
